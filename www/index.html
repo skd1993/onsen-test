@@ -184,9 +184,9 @@
                 <div class="center">Test app</div>
             </ons-toolbar>
             <ons-tabbar>
-                <ons-tab ng-click="app.navi.pushPage('home.html');" label="Home" icon="ion-home" active="true"></ons-tab>
+                <ons-tab ng-click="app.navi.resetToPage('home.html');" label="Home" icon="ion-home" active="true"></ons-tab>
                 <ons-tab ng-click="app.navi.pushPage('fav.html');" label="fav" icon="ion-chatbox-working"></ons-tab>
-                <ons-tab ng-click="app.navi.pushPage('settings.html');" label="settings" icon="ion-ios-pricetag"></ons-tab>
+                <ons-tab ng-click="app.navi.resetToPage('settings.html');" label="settings" icon="ion-ios-pricetag"></ons-tab>
             </ons-tabbar>
             <!--
             <p style="text-align: center">
@@ -209,7 +209,7 @@
     -->
     <ons-template id="home.html">
         <ons-toolbar>
-                <div class="center">Home</div>
+            <div class="center">Home</div>
         </ons-toolbar>
         <p>hello, this is home</p>
         <p style="text-align: center">
@@ -218,7 +218,7 @@
     </ons-template>
     <ons-template id="fav.html">
         <ons-toolbar>
-                <div class="center">Fav</div>
+            <div class="center">Fav</div>
         </ons-toolbar>
         <p>whoa!!</p>
         <p style="text-align: center">
@@ -227,7 +227,7 @@
     </ons-template>
     <ons-template id="settings.html">
         <ons-toolbar>
-                <div class="center">Settings</div>
+            <div class="center">Settings</div>
         </ons-toolbar>
         <p>Settings! ughh!!</p>
         <p style="text-align: center">
